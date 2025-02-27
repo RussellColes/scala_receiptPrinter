@@ -1,0 +1,22 @@
+# Contents below all suggested from ChatGPT
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# sbt and Scala build artifacts
+target/
+project/target/
+project/metals.sbt
+project/project/
+
+# Coursier and Metals (Scala dependency manager & language server)
+.coursier/
+.metals/
+.worksheet/
+
+# Logs
+logs/
+*.log
+
+# MacOS specific files
+.DS_Store

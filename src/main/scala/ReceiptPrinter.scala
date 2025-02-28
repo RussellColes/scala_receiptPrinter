@@ -11,7 +11,7 @@ object Main extends App {
                    )
 
   class ReceiptPrinter(val cafe: CafeDetails, var order: Map[String, Int] = Map()) {
-//  VERSION 3 - ChatGPT's suggested implementation combining best bits of mine and theirs!
+//  VERSION 3 - Updated following feedback
     private def header: String =
       s"${cafe.shopName}\n${cafe.address}\n${cafe.phone}"
 
